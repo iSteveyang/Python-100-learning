@@ -1,0 +1,10 @@
+def enroll(name, gender, age=6, city='Beijing'):
+    print('name:', name)
+    print('gender:', gender)
+    print('age:', age)
+    print('city:', city)
+print("Test the parameter:\nDefault:")
+enroll('is', 'T')
+print("with 1-parameter")
+enroll('is', 'A', 20)
+enroll('is', 'M', 20, 'BeiHai')
